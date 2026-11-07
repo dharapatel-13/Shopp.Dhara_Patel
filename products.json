@@ -1,0 +1,75 @@
+
+[
+    {
+        "id": 1,
+        "name": "Classic Street Sneakers",
+        "category": "Fashion",
+        "price": 2499,
+        "rating": 4.8,
+        "tag": "BESTSELLER",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700&q=85"
+    },
+    {
+        "id": 2,
+        "name": "Minimal Leather Bag",
+        "category": "Accessories",
+        "price": 1899,
+        "rating": 4.7,
+        "tag": "TRENDING",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700&q=85"
+    },
+    {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 3299,
+        "rating": 4.9,
+        "tag": "HOT PICK",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=700&q=85"
+    },
+    {
+        "id": 4,
+        "name": "Everyday Smart Watch",
+        "category": "Electronics",
+        "price": 4599,
+        "rating": 4.6,
+        "tag": "NEW ARRIVAL",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700&q=85"
+    },
+    {
+        "id": 5,
+        "name": "Premium Sunglasses",
+        "category": "Accessories",
+        "price": 1299,
+        "rating": 4.5,
+        "tag": "POPULAR",
+        "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700&q=85"
+    },
+    {
+        "id": 6,
+        "name": "Oversized Cotton Hoodie",
+        "category": "Fashion",
+        "price": 1799,
+        "rating": 4.8,
+        "tag": "CUSTOMER FAV",
+        "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=700&q=85"
+    },
+    {
+        "id": 7,
+        "name": "Modern Desk Lamp",
+        "category": "Lifestyle",
+        "price": 999,
+        "rating": 4.4,
+        "tag": "MINIMAL PICK",
+        "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&q=85"
+    },
+    {
+        "id": 8,
+        "name": "Everyday Backpack",
+        "category": "Lifestyle",
+        "price": 2199,
+        "rating": 4.7,
+        "tag": "MUST HAVE",
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700&q=85"
+    }
+]

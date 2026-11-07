@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7f5ef">
+    <title>ShopZone — The Modern Edit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="announcement">
+        <span>✦</span> FREE SHIPPING ON ORDERS ABOVE ₹999
+        <span>✦</span> NEW SEASON. NEW ENERGY.
+    </div>
+
+    <header class="navbar">
+        <a href="#" class="logo">shop<span>zone.</span></a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#products">Shop</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">Our Story</a>
+        </nav>
+
+        <div class="nav-actions">
+            <div class="search-box">
+                <span>⌕</span>
+                <input type="text" id="searchInput" placeholder="Search products...">
+            </div>
+
+            <button class="cart-button" id="openCart">
+                ♡ <span class="cart-label">Cart</span>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span class="orange-dot"></span>
+                    THE NEW GENERATION OF SHOPPING
+                </div>
+
+                <h1>Find your<br>next <span>favorite.</span></h1>
+
+                <p>
+                    Good taste. Great finds. Better prices.
+                    Discover everyday essentials that make
+                    ordinary days feel extraordinary.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#products" class="primary-btn">
+                        Explore Collection ↗
+                    </a>
+                    <a href="#about" class="secondary-btn">
+                        Our Story
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>8+</strong>
+                        <small>Curated Products</small>
+                    </div>
+                    <div>
+                        <strong>100%</strong>
+                        <small>Good Vibes</small>
+                    </div>
+                    <div>
+                        <strong>24/7</strong>
+                        <small>Online Shopping</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1000&q=85"
+                         alt="Modern shopping collection">
+                </div>
+                <div class="floating-card">
+                    <span>✦</span>
+                    <div>
+                        <strong>Curated for you</strong>
+                        <small>Style meets simplicity.</small>
+                    </div>
+                </div>
+                <div class="hero-circle">NEW<br>DROP<br>2026</div>
+            </div>
+        </section>
+
+        <section class="trust-strip">
+            <span>✦ QUALITY FIRST</span>
+            <span>✦ EASY SHOPPING</span>
+            <span>✦ GREAT FINDS</span>
+            <span>✦ MADE FOR YOU</span>
+        </section>
+
+        <section class="categories-section" id="categories">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">EXPLORE YOUR STYLE</span>
+                    <h2>Shop by <span>category.</span></h2>
+                </div>
+                <p>Little things. Big upgrades.</p>
+            </div>
+
+            <div class="category-list" id="categoryFilters">
+                <button class="category-btn active" data-category="All">All Products</button>
+                <button class="category-btn" data-category="Fashion">Fashion</button>
+                <button class="category-btn" data-category="Electronics">Electronics</button>
+                <button class="category-btn" data-category="Accessories">Accessories</button>
+                <button class="category-btn" data-category="Lifestyle">Lifestyle</button>
+            </div>
+        </section>
+
+        <section class="products-section" id="products">
+            <div class="section-heading product-heading">
+                <div>
+                    <span class="section-label">HANDPICKED FOR YOU</span>
+                    <h2>The good <span>stuff.</span></h2>
+                </div>
+
+                <select id="sortSelect" class="sort-select">
+                    <option value="default">Sort: Featured</option>
+                    <option value="low">Price: Low to High</option>
+                    <option value="high">Price: High to Low</option>
+                    <option value="rating">Top Rated</option>
+                </select>
+            </div>
+
+            <div class="results-info">
+                <span id="resultCount">Discovering products...</span>
+                <span>✦ OUR CURRENT FAVORITES</span>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <div class="loading">Finding your favorites...</div>
+            </div>
+        </section>
+
+        <section class="promo-section" id="about">
+            <div class="promo-text">
+                <span class="section-label">MORE THAN JUST SHOPPING</span>
+                <h2>Less ordinary.<br><span>More you.</span></h2>
+                <p>
+                    We believe shopping should feel exciting.
+                    That's why we bring together style, quality
+                    and everyday essentials in one place.
+                </p>
+                <a href="#products" class="primary-btn">Discover More ↗</a>
+            </div>
+
+            <div class="promo-image">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1000&q=85"
+                     alt="Fashion shopping experience">
+                <div class="promo-sticker">YOUR<br>STYLE<br>YOUR RULES.</div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <span class="section-label">STAY IN THE LOOP</span>
+            <h2>Good things are<br><span>coming.</span></h2>
+            <p>Get updates about fresh drops and exclusive offers.</p>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Join Us ↗</button>
+            </form>
+            <small id="newsletterMessage">No spam. Just good stuff.</small>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="#" class="logo">shop<span>zone.</span></a>
+        <p>Curated finds for your everyday life.</p>
+        <div class="footer-bottom">
+            <span>© 2026 ShopZone. All rights reserved.</span>
+            <span>MADE WITH ♡ FOR GOOD TASTE.</span>
+        </div>
+    </footer>
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <div>
+                <span class="section-label">YOUR SELECTION</span>
+                <h2>Your Cart <span id="drawerCount">(0)</span></h2>
+            </div>
+            <button class="close-cart" id="closeCart">✕</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <div class="empty-cart">
+                <span>♡</span>
+                <h3>Your cart is empty.</h3>
+                <p>Let's find something you love.</p>
+            </div>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Subtotal</span>
+                <strong id="cartTotal">₹0</strong>
+            </div>
+            <p>Shipping calculated at checkout.</p>
+            <button class="checkout-btn" id="checkoutBtn">Continue Shopping ↗</button>
+        </div>
+    </aside>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
